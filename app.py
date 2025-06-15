@@ -6,7 +6,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": [
-    "https://wealthsync-frontend.onrender.com",
+    "https://wealthsync-frontend2.onrender.com",
     "http://localhost:3000"
 ]}})
 
